@@ -1,0 +1,14 @@
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojAssemblyReference.cache
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.AddForm.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.MainForm.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.cache
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.SearchNameForm.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.AdressSearchForm.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.PhoneNumberForm.resources
+C:\Users\aubva\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
