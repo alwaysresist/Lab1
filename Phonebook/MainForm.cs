@@ -67,7 +67,7 @@ namespace PhoneBook
         private void ДобавитьToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Note MyRecord = new Note();
-            AddForm _AddForm = new AddForm(MyRecord, AddOrEdit.Add);
+            AddForm _AddForm = new AddForm(MyRecord,PhoneNote, AddOrEdit.Add);
             _AddForm.ShowDialog();
             if (_AddForm.Full)
             {
@@ -172,7 +172,7 @@ namespace PhoneBook
             if (PhoneNote.Count > 0)
             {
                 Note MyRecord = new Note();
-                AddForm _AddForm = new AddForm(MyRecord, AddOrEdit.Edit);
+                AddForm _AddForm = new AddForm(MyRecord,PhoneNote, AddOrEdit.Edit);
                 MyRecord.LastName = LastNameTextBox.Text;
                 MyRecord.Name = NameTextBox.Text;
                 MyRecord.Patronymic = PatronymicTextBox.Text;

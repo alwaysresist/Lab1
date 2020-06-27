@@ -14,11 +14,13 @@ namespace PhoneBook
     {
         public Note MyRecord;
         public bool Full = false;
+        private List<Note> PhoneNote;
 
-        public AddForm(Note _MyRecord, AddOrEdit MyType)
+        public AddForm(Note _MyRecord, List<Note> _PhoneNote, AddOrEdit MyType)
         {
             InitializeComponent();
             MyRecord = _MyRecord;
+            PhoneNote = _PhoneNote;
             if (MyType == AddOrEdit.Add)
             {
                 Text = "Добавление абонента";
@@ -51,8 +53,13 @@ namespace PhoneBook
                 MyRecord.Street = StreetTextBox.Text;
                 MyRecord.House = (ushort)HouseNumericUpDown.Value;
                 MyRecord.Flat = (ushort)FlatNumericUpDown.Value;
-                Full = true;
-                Close();
+                if (PhoneNote.Contains(MyRecord))
+                    MessageBox.Show("Запись уже существует!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                {
+                    Full = true;
+                    Close();       
+                }               
             }
             else
                 MessageBox.Show("Заполните все поля.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
